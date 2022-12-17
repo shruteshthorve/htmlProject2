@@ -1,0 +1,37 @@
+#navbar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: antiquewhite;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+#navDiv2{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+#div2{
+    display: flex;
+}
+#div2>div{
+    width: 50%;
+}
+#mainImg{
+    width: 100%;
+}
+#imgDiv{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#imgDiv >div{
+    width: 33%;
+}
+#imgDiv >div >img{
+    width: 100%;
+}
